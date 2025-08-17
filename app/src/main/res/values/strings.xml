@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Buscador</string>
+    <string name="beer_title">Buscador cervezas</string>
+    <string name="find_beer">Elije una cerveza</string>
+    <string name="brands_placeholder">Selecciona un tipo de cerveza y pulsa el botón</string>
+
+    <string name="pet_title">Buscador razas</string>
+    <string name="find_pet">Elije una raza</string>
+    <string name="pet_placeholder">Selecciona una raza y pulsa el botón</string>
+
+    <string-array name="beer_types">
+        <item>Light</item>
+        <item>Amber</item>
+        <item>Brown</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="pet_categories">
+        <item>Pastores</item>
+        <item>Pinscher</item>
+    </string-array>
+
+</resources>

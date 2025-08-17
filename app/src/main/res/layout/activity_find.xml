@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/beer_title"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/beer_color"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:entries="@array/beer_types" />
+
+        <Button
+            android:id="@+id/find_beer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="onClickFindBeer"
+            android:text="@string/find_beer" />
+
+        <TextView
+            android:id="@+id/brands"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/brands_placeholder" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/pet_title"
+            android:textSize="25sp" />
+
+        <Spinner
+            android:id="@+id/pet_category"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:entries="@array/pet_categories" />
+
+        <Button
+            android:id="@+id/find_pet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/find_pet"
+            android:onClick="onClickFindPet" />
+
+        <TextView
+            android:id="@+id/pet_breeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:text="@string/pet_placeholder" />
+
+    </LinearLayout>
+</ScrollView>
